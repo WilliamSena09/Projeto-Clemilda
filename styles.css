@@ -13,17 +13,18 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin-top: 50px;
     border-radius: 15px; /* Adiciona arredondamento ao contêiner */
+    position: relative;
 }
 
 .logo {
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 200px; /* Ajuste o tamanho conforme necessário */
+    width: 300px; /* Ajuste o tamanho conforme necessário */
     height: auto;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #333;
     text-align: center;
 }
